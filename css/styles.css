@@ -1,3 +1,12 @@
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+
 body { 
   background-color:rgb(23, 23, 110);
   /* z-index: 1000; */
@@ -64,8 +73,6 @@ h4:hover {
 
 .card {
 background-color: deepskyblue;
-
-
 
 }
 
@@ -177,7 +184,7 @@ footer {
   width: 100%;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 700px) {
   img {
     float: right;
   }
@@ -187,4 +194,63 @@ footer {
   .skills {
     list-style: none;
   }
+  .container {
+    height: 0px;
+    width:0px;
+    margin-left: 0px;
+    margin-bottom:0px;
+  
+}
+.card-title {
+  margin-left: 340px;
+}
+.name {
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 1rem;
+display:none;
+
+}
+.ceo {
+  display: none;
+}
+nav {
+  height: 70px;
+  width: 100%;
+  /* background-color: blanchedalmond; */
+  padding-right: 0px;
+  text-align: center;
+  margin-top: 20px;  
+  color: white;
+
+}
+nav :hover {
+  cursor: pointer;
+  color: black;
+}
+ul li {
+  list-style: none;
+  display: grid;
+  padding-right: 30px;
+
+}
+.skills{
+  display: block;
+margin-top: 350px;
+margin-left: 50px;
+
+}
+.h1-c {
+  margin-left: 80px;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.skill{
+  margin-right: 0px;
+  margin-bottom: 20px;
+  }
+  .card {
+    background-color: deepskyblue;
+    
+    }
 }

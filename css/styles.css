@@ -160,7 +160,7 @@ footer {
 }
 
 
-@media only screen and (min-width: 896px) {
+@media only screen and (max-width: 750px) {
   img {
     float: left;
   }

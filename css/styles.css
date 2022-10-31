@@ -165,7 +165,7 @@ footer {
     float: left;
   }
   nav {
-    display: inline;
+    display: hide;
   }
   .skills {
     list-style: none;

@@ -168,6 +168,6 @@ footer {
     display: inline;
   }
   .skills {
-    text-decoration: none;
+    list-style: none;
   }
 }

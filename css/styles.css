@@ -4,20 +4,22 @@
   margin: 0px;
   padding: 0px;
   
+  
 }
 
 
 body { 
-  background-color:rgb(23, 23, 110);
+  background-color: whitesmoke;
   /* z-index: 1000; */
   margin: 20px;
 
 }
 
-h1 { color: white; }
+h1 { color: rgb(255, 255, 255); }
 h2 { color: black; }
 h3 { color: black; }
-h4 { color: rgba(255, 255, 255, 0.544); }
+h4 {  color: rgba(17, 3, 3, 0.483);
+  margin-top: 30px; }
 
 img { background-color: grey;}
 
@@ -25,7 +27,6 @@ img { background-color: grey;}
     nav {
         height: 70px;
         width: 100%;
-        /* background-color: blanchedalmond; */
         padding-right: 50px;
         text-align: center;
         margin-top: 20px;  
@@ -77,8 +78,7 @@ background-color: deepskyblue;
 }
 
 section {
-background-color: rgb(37, 28, 136);
-  /* background-color: rgb(12, 12, 85); */
+background-color: white;
 }
 
 h2 a {
@@ -88,13 +88,13 @@ h2 a {
 
 .card-title h1{
 
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-size: 1rem;
 margin-left: 80px;
 }
 
 .card-title {
-  margin-left: 400px;
+  margin-left: 500px;
 }
  
 .card-body {
@@ -106,15 +106,25 @@ margin-right: 15px;
 }
 
 .h1-c {
-  margin-left: 50px;
+  margin-left: 320px;
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
+  /* color: rgb(17, 142, 142); */
+  color: rgba(17, 3, 3, 0.483);
+}
+
+.skills p {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: inline-block;
 }
 
 .skills{
   display: block;
 margin-top: 500px;
-margin-left: 50px;
+margin-left: 320px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 
 }
 
@@ -172,6 +182,7 @@ img {
 footer {
   margin-top: 100px;
  text-align: center;
+ color: rgba(9, 1, 1, 0.483);
 }
   
 .btn:hover {

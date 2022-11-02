@@ -9,8 +9,8 @@
 
 
 body { 
-  /* background-color: whitesmoke; */
-  background-image:url(../images/background.jpeg) ;
+    background-color: whitesmoke; 
+/*   background-image:url(../images/background.jpeg) ; */
   
   margin: 20px;
 

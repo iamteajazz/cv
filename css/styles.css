@@ -221,7 +221,7 @@ footer {
 
 @media only screen and (max-width:375px) {
   
-  body {background-color: rgb(2, 61, 48); }
+  body {background-color: rgb(2, 81, 64); }
   img {
     /* float: right; */
     
@@ -312,4 +312,10 @@ margin-right: 5px;
     height: 330px;
     
     }
+    footer {
+      margin-top: 100px;
+     text-align: center;
+     color: rgba(24, 5, 5, 0.483);
+    }
+
 }

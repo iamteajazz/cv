@@ -215,6 +215,31 @@ footer {
 }
 
 
+@media only screen and (max-width:375px) {
+  
+  
+  img {
+    /* float: right; */
+    
+    position: static;
+  }
+  nav {
+    display: inline;
+  }
+  .skills {
+    list-style: none;
+  }
+  .container {
+    height:0px;
+    width:0px;
+    margin-left: 0px;
+    margin-bottom:0px;
+  
+}
+.container img {
+  margin-right: 150px;
+}
+
 .card-title {
   margin-left: 420px;
 }
@@ -249,15 +274,25 @@ ul li {
 
 }
 .skills{
-  display: block;
+  /* display: block; */
+  padding-right: 50px;
 margin-top: 350px;
-margin-left: 20px;
+margin-left: 0px;
+margin-right: 20px;
 
+
+}
+.skills p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: list-item;
+ 
+}
 }
 .h1-c {
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 80px;
+  margin-left: 110px;
   
  
 }
@@ -266,9 +301,13 @@ margin-left: 20px;
   margin-bottom: 20px;
   margin-left: 120px;
   margin-top: 20px;
+  
+  
   }
   .card {
-    background-color: deepskyblue;
+    background-color: rgb(11, 85, 110);
+    width: 330px;
+    height: 330px;
     
     }
 }

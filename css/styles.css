@@ -9,8 +9,9 @@
 
 
 body { 
-  background-color: whitesmoke;
-  /* z-index: 1000; */
+  /* background-color: whitesmoke; */
+  background-image:url(../images/background.jpeg) ;
+  
   margin: 20px;
 
 }
@@ -95,6 +96,8 @@ margin-left: 80px;
 
 .card-title {
   margin-left: 500px;
+  /* flex-direction: row; */
+
 }
  
 .card-body {
@@ -120,6 +123,7 @@ margin-right: 15px;
 }
 
 .skills{
+  /* flex-wrap: wrap; */
   display: block;
 margin-top: 500px;
 margin-left: 320px;
@@ -191,9 +195,9 @@ footer {
 }
 
 /* For mobile phones: */
-[class*="col-"] {
+/* [class*="col-"] {
   width: 100%;
-}
+} */
 
 @media only screen and (max-width:600px) {
   img {

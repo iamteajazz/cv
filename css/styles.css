@@ -9,8 +9,8 @@
 
 
 body { 
-    background-color: whitesmoke; 
-/*   background-image:url(../images/background.jpeg) ; */
+  background-color: whitesmoke;
+  /* background-image:url(../images/background.jpeg) ; */
   
   margin: 20px;
 
@@ -44,7 +44,7 @@ img { background-color: grey;}
     }
 
     a {text-decoration: none;
-    color: blue;
+    color: rgb(4, 4, 71);
     }
 
 
@@ -221,7 +221,7 @@ footer {
 
 @media only screen and (max-width:375px) {
   
-  
+  body {background-color: rgb(2, 61, 48); }
   img {
     /* float: right; */
     
@@ -283,16 +283,15 @@ ul li {
 margin-top: 350px;
 margin-left: 0px;
 margin-right: 5px;
-
-
 }
 .skills p {
   margin-top: 20px;
   margin-bottom: 20px;
   display: list-item;
+  
  
 }
-}
+
 .h1-c {
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -305,9 +304,8 @@ margin-right: 5px;
   margin-bottom: 20px;
   margin-left: 55px;
   margin-top: 20px;
-  
-  
   }
+
   .card {
     background-color: rgb(11, 85, 110);
     width: 330px;

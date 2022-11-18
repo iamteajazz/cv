@@ -1,321 +1,68 @@
-
-
-* {
-  margin: 0px;
-  padding: 0px;
-  
-  
-}
-
-
-body { 
-  background-color: whitesmoke;
-  /* background-image:url(../images/background.jpeg) ; */
-  
-  margin: 20px;
+body {
+    padding:auto;
+    margin: auto;
+   background-color: rgb(8, 70, 123);
+   font-style: italic;
 
 }
 
-h1 { color: rgb(255, 255, 255); }
-h2 { color: black; }
-h3 { color: black; }
-h4 {  color: rgba(17, 3, 3, 0.483);
-  margin-top: 30px; }
-
-img { background-color: grey;}
-
-
-    nav {
-        height: 70px;
-        width: 100%;
-        padding-right: 50px;
-        text-align: center;
-        margin-top: 20px;  
-        color: white;
-
-    }
-
-
-    ul li {
-        list-style: none;
-        display: inline;
-        padding-right: 30px;
-
-    }
-
-    a {text-decoration: none;
-    color: rgb(4, 4, 71);
-    }
-
-
-a:hover{
-    cursor: pointer;
-    color: rgb(226, 43, 95);
-    /* border: 1px solid black; */
+nav {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+ 
 }
+ nav li {
+     list-style: none;
+    
+ }
 
+ a { 
+    text-decoration: none;
+   margin: auto;
+ }
+main {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
 
+  section {
+      text-align: center;
+  }
 
-h4:hover {
-  cursor: pointer;
-  color: violet;
-}
+  footer {
+      text-align: center;
+  }
+
+  .ceo {
+      font-size: 11px;
+  }
+
+  .skills a {
+text-decoration: none;
+  }
 
 .container {
-    height: 0px;
-    /* width: 350px; */
-    margin-left: 0px;
-    margin-bottom: 50px;
-  
-}
-
-.break {
-  margin-top: 60px;
-}
-
-.card {
-background-color: deepskyblue;
-
-}
-
-section {
-background-color: white;
-}
-
-h2 a {
-  font-size: 1rem;
-  margin-left: 30px;
-}
-
-.card-title h1{
-
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: 1rem;
-margin-left: 80px;
-}
-
-.card-title {
-  margin-left: 500px;
-  /* flex-direction: row; */
-
-}
- 
-.card-body {
-    padding: 30px;
-}
-
-.skill{
-margin-right: 15px;
-}
-
-.h1-c {
-  margin-left: 320px;
-  font-size: 2rem;
-  font-family: Arial, Helvetica, sans-serif;
-  /* color: rgb(17, 142, 142); */
-  color: rgba(17, 3, 3, 0.483);
-}
-
-.skills p {
-  margin-top: 30px;
-  margin-bottom: 20px;
-  display: inline-block;
-}
-
-.skills{
-  /* flex-wrap: wrap; */
-  display: block;
-margin-top: 500px;
-margin-left: 320px;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-
-}
-
-.skillss{
-  padding-left: 30px;
-  border: 1px solid black;
-  width: 680px;
-  margin-left: 30px;
-}
-
-form {
-  padding-left: 30px;
-  border: 0px solid black;
-  background-color: gray;
-  width: 300px;
-  color: hwb(0 100% 0%);
-}
-
-
-input{
-  width: 260px;
-  border-radius: 5px;
-  height: 30px;
-}
-
-label{
-  padding-top: 15px;
-  display: block;
-}
-
-button{
-  width: 260px;
-  text-align: center;
-  height: 30px;
-  border-radius: 10px;
-  background-color: blue;
-  color: rgb(0,0,0);
-  font-size: 20px;
-}
-
-.contact {
-  width: 150px;
-  height: 100px;
-  margin-left: 5px;
-
-}
-img {
-  width: 300px;
-  height: 300px;
-  margin-right: 35px;
-  border-radius: 100%;
-
-}
-
-footer {
-  margin-top: 100px;
- text-align: center;
- color: rgba(9, 1, 1, 0.483);
-}
-  
-.btn:hover {
-  background-color: transparent;
-  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-/* For mobile phones: */
-/* [class*="col-"] {
-  width: 100%;
-} */
-
-@media only screen and (max-width:600px) {
-  img {
-    float: right;
-    position: static;
+      margin-top: 0px;
   }
-  nav {
-    display: inline;
-  }
-  .skills {
-    list-style: none;
-  }
-  .container {
-    height: 0px;
-    width:0px;
-    margin-left: 0px;
-    margin-bottom:0px;
-  
-}
-
-
-@media only screen and (max-width:375px) {
-  
-  body {background-color: rgb(2, 81, 64); }
-  img {
-    /* float: right; */
-    
-    position: static;
-  }
-  nav {
-    display: inline;
-  }
-  .skills {
-    list-style: none;
-  }
-  .container {
-    height:0px;
-    width:0px;
-    margin-left: 0px;
-    margin-bottom:0px;
-  
-}
-.container img {
-  margin-right: 150px;
-}
-
-.card-title {
-  margin-left: 420px;
-}
-.name {
-
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: 1rem;
-display:none;
-
-}
-.ceo {
-  display: none;
-}
-nav {
-  height: 70px;
-  width: 100%;
-  /* background-color: blanchedalmond; */
-  padding-right: 0px;
-  text-align: center;
-  margin-top: 20px;  
-  color: white;
-
-}
-nav :hover {
-  cursor: pointer;
-  color: black;
-}
-ul li {
-  list-style: none;
-  display: grid;
-  padding-right: 30px;
-
-}
-.skills{
-  /* display: block; */
-  padding-right: 50px;
-margin-top: 350px;
-margin-left: 0px;
-margin-right: 5px;
-}
-.skills p {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: list-item;
-  
- 
-}
-
-.h1-c {
-  font-size: 2rem;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 110px;
-  
- 
-}
-.skill{
-  margin-right: 0px;
-  margin-bottom: 20px;
-  margin-left: 55px;
-  margin-top: 20px;
+  hr {
+    height: 1px;
+    background-color: rgb(14, 44, 120);
+    border-color: rgb(42, 77, 165);
   }
 
-  .card {
-    background-color: rgb(11, 85, 110);
-    width: 330px;
-    height: 330px;
-    
-    }
-    footer {
-      margin-top: 100px;
-     text-align: center;
-     color: rgba(24, 5, 5, 0.483);
-    }
+  a:visited {
+    color: rgb(4, 21, 89);
+  }
 
-}
+  a:hover {
+    color: rgb(82, 36, 36);
+  }
+  
+  a:active {
+    color: rgb(62, 35, 35);
+  }

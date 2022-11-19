@@ -1,69 +1,74 @@
 body {
-    padding:auto;
-    margin: auto;
-   background-color: rgb(8, 70, 123);
-   font-style: italic;
-   width: 500px;
+  padding:auto;
+  margin: auto;
+ /* background-color: rgb(8, 70, 123); */
+ background: radial-gradient(blue, white,rgb(0, 42, 255));
+ font-style: italic;
+ width: 500px;
 
 }
 
 nav {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    
- 
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  
+  
+
 }
- nav li {
-     list-style: none;
-    
- }
+nav li {
+   list-style: none;
+   margin-top: 10px;
+   
+  
+}
 
- a { 
-    text-decoration: none;
-   margin: auto;
- }
+a { 
+  text-decoration: none;
+ margin: auto;
+}
 main {
-    width: 80%;
-    background-color: burlywood;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 500px;
-  }
+  width: 80%;
+  /* background-color: burlywood; */
+  background: radial-gradient(blue,rgb(143, 122, 6), white,rgb(0, 42, 255));
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
 
-  section {
-      text-align: center;
-  }
+section {
+    text-align: center;
+}
 
-  footer {
-      text-align: center;
-  }
+footer {
+    text-align: center;
+}
 
-  .ceo {
-      font-size: 11px;
-  }
+.ceo {
+    font-size: 11px;
+}
 
-  .skills a {
+.skills a {
 text-decoration: none;
-  }
+}
 
 .container {
-      margin-top: 0px;
-  }
-  hr {
-    height: 1px;
-    background-color: rgb(14, 44, 120);
-    border-color: rgb(42, 77, 165);
-  }
+    margin-top: 0px;
+}
+hr {
+  height: 1px;
+  background-color: rgb(14, 44, 120);
+  border-color: rgb(42, 77, 165);
+}
 
-  a:visited {
-    color: rgb(4, 21, 89);
-  }
+a:visited {
+  color: rgb(4, 21, 89);
+}
 
-  a:hover {
-    color: rgb(82, 36, 36);
-  }
-  
-  a:active {
-    color: rgb(62, 35, 35);
-  }
+a:hover {
+  color: rgb(82, 36, 36);
+}
+
+a:active {
+  color: rgb(62, 35, 35);
+}

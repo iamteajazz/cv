@@ -10,8 +10,7 @@ body {
 
 nav {
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  }
+}
 
 .container h2 a{
 
@@ -21,6 +20,13 @@ nav {
  .name {
   margin-bottom: 0px;
   color: aliceblue;
+}
+
+
+li a h4 {
+/* margin-top: 80px; */
+ position: static;
+ font-size: 10px;
 }
 
 nav li {

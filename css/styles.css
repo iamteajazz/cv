@@ -1,89 +1,82 @@
+
+*{
+  width: 100%;
+}
+
 body {
-  padding:auto;
-  margin: auto;
- /* background-color: rgb(8, 70, 123); */
- background: radial-gradient(blue, white,rgb(0, 42, 255));
- font-style: italic;
- width: 500px;
-
+  margin: 0;
+  padding: 0;
+  background-color: rgb(5, 5, 206);
+  width: 98%;
+  height: 100vh;
+  font-family: Tahoma;
 }
-
-nav {
-  text-align: center;
-}
-
-.container h2 a{
-
-    margin-top: 0px;
-    color: aliceblue;
-  }
- .name {
-  margin-bottom: 0px;
-  color: aliceblue;
-}
-
-
-li a h4 {
-/* margin-top: 80px; */
- position: static;
- font-size: 10px;
-}
-
-nav li {
-   list-style: none;
-   margin-top: 10px;
-   
-  
-}
-
-a { 
+a {
   text-decoration: none;
- margin: auto;
-}
-main {
-  width: 80%;
-  /* background-color: burlywood; */
-  background: radial-gradient(blue,rgb(143, 122, 6), white,rgb(0, 42, 255));
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  max-width: 500px;
-}
-
-section {
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-}
-
-.ceo {
-    font-size: 11px;
-}
-
-.skills a {
-text-decoration: none;
-}
-
-.container {
-    margin-top: 0px;
-}
-hr {
-  height: 1px;
-  background-color: rgb(14, 44, 120);
-  border-color: rgb(42, 77, 165);
-}
-
-a:visited {
-  color: rgb(4, 21, 89);
 }
 
 a:hover {
-  color: rgb(82, 36, 36);
+  color: blueviolet;
 }
 
-a:active {
-  color: rgb(62, 35, 35);
+ nav ul{
+  list-style:none;
+  text-align:center;
+}
+nav li {
+  display: block;
 }
 
+li {
+  margin-top: 10px;
+}
+nav {
+  background-color: azure;
+  margin: auto;
+ 
+  
+}
+img {
+  background-color: rgb(130, 211, 238);
+  width: auto;
+  height:auto;
+}
+
+.ceo {
+  font-size: 12px; 
+}
+h2 a {
+  color: rgb(130, 211, 238);
+}
+.form {
+  text-align:center;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.form a {
+  color:   rgb(130, 211, 238);
+}
+
+.sec {
+  text-align: center;
+  margin-left: 40px;
+}
+
+section .break {
+  background-color:  rgb(130, 211, 238);
+  color:  rgb(130, 211, 238);
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.skill {
+  background-color: rgb(130, 211, 238);
+  margin-top: 40px;
+  margin-bottom: 20px;
+ 
+}
